@@ -9,7 +9,6 @@ formEl.addEventListener('submit', onFormSubmit);
 loadMoreBtn.addEventListener('click', onLoadMore);
 
 const photoApiService = new PhotoApiService();
-
 function onFormSubmit(event) {
   event.preventDefault();
 
